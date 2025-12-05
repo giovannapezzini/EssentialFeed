@@ -1,3 +1,12 @@
+//
+//  LocalFeedItem.swift
+//  EssentialFeed
+//
+//  Created by giovanna pezzini on 2025/12/04.
+//
+
+import Foundation
+
 public struct LocalFeedItem: Equatable {
     public let id: UUID
     public let description: String?
